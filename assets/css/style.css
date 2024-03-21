@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1c7d32;
+  color: #ffa867;
   text-decoration: none;
 }
 
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #c9c9c9;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
