@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #849aff;
+  background: #3f3f3f;
   background-size: cover;
   left: 0;
   right: 0;
@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #00d3ff;
 }
 
 a:hover {
-  color: #12d640;
+  color: #00d3ff;
   text-decoration: none;
 }
 
@@ -84,8 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
-  color: #ffc107;
-  border-bottom: 2px solid #1c7d32;
+  color: #ededed;
+  border-bottom: 2px solid #dee2e6;
   padding-bottom: 6px;
 }
 
