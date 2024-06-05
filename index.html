@@ -287,8 +287,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rounded Border Image Example</title>
     <style>
-        .rounded-border {
+        .portfolio-wrap {
             border-radius: 15px; /* Adjust the value as needed */
+            overflow: hidden;
+            display: inline-block;
+        }
+        .img-fluid {
+            display: block;
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -296,7 +303,7 @@
     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <center><h4>Mystic Society (shifted)</h4></center>
         <div class="portfolio-wrap">
-            <img src="assets/img/project/mystic.png" class="img-fluid rounded-border" alt="">
+            <img src="assets/img/project/mystic.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               
               <div class="portfolio-links">
